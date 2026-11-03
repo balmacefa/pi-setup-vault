@@ -1,0 +1,10 @@
+generated_utc: 2026-11-03T08:41:03Z
+host:          fabian
+sources:       .pi/agent .agents
+cipher:        aes-256-cbc pbkdf2 iter=200000
+plaintext_sha256: 3c6a8f1e361f14b882fc221a99fc356c4eb8f3c5eae019aba8d281b0ee2cc0d5
+enc_sha256:       8bae1924d158fd9ca3e50b759beedaf2e512bf33593c916ebc8ab367a79f6441
+enc_bytes:        105834480
+parts:
+  pi-setup.tar.gz.enc.part-000  94371840  sha256:53e214de0cfb1c8458ad1368fd8a29bf7f6a186b186ab3ef6d854c45da6c48db
+  pi-setup.tar.gz.enc.part-001  11462640  sha256:3fe20d898f02f571f2f0e193e619307e944cd9926399b80e7ed4e4ff4127a729

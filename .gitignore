@@ -1,0 +1,11 @@
+# Whitelist estricta: SOLO se versionan archivos seguros (cifrados + scripts).
+# Cualquier texto plano / secreto queda fuera por diseno.
+*
+!.gitignore
+!README.md
+!backup.sh
+!restore.sh
+!MANIFEST.txt
+!data/
+data/*
+!data/pi-setup.tar.gz.enc.part-*
